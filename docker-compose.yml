@@ -1,5 +1,5 @@
 services:
-  mariadb:
+ mariadb:
     image: mariadb:latest
     container_name: mariadb_alone
     environment:
