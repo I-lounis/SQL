@@ -33,7 +33,7 @@ UPDATE `user`
 set `age`= 45
 WHERE `id` = 1;
 
-UPDATE `user` 
+UPDATE `user`
 set `age`= 18
 WHERE `nom` = 'Hafida';
 

@@ -78,7 +78,7 @@ SELECT * FROM `order`;
 
 SELECT *
 FROM `customer`
-INNER JOIN `order` ON `customer`.`id` = `order`.`id_customer`;
+INNER JOIN `order` ON `customer`.`id` = `order`.`id_customer`
 WHERE `customer`.`id` = 1;
 
 
